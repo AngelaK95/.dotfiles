@@ -1,0 +1,3 @@
+#!/bin/bash
+umount /mnt/usb$1 &&
+rmdir /mnt/usb$1

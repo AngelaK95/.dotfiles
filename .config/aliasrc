@@ -1,0 +1,16 @@
+#ZSH alias file
+
+#Rules!
+# No flag = Normal alias (for simple commands)
+# -g flag = Global alias (can be used anywhere in the code)
+
+alias 		cdf="cd /home/angela/my_files/"
+alias 	-g 	pcms="pacman -Ss"
+alias 	-g 	yays="yay -Ss"
+alias 	-g 	lsd="lsd --group-dirs first"
+alias 	-g 	lsda="lsd --group-dirs none"
+alias		reload="source ~/.zshrc && reset"
+alias		w3m="w3m duckduckgo.com"
+alias		welp="shutdown now"
+alias		nap="systemctl suspend"
+alias	-g	youtube-mp3="youtube-dl --extract-audio --audio-format mp3"

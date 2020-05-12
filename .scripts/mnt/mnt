@@ -1,0 +1,4 @@
+#!/bin/bash
+mkdir /mnt/usb$1 &&
+mount $2 /mnt/usb$1 &&
+chmod +rw /mnt/usb$1

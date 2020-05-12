@@ -1,0 +1,36 @@
+#!/bin/zsh
+
+#
+# Clean up rules
+# 
+bspc rule -r "*"
+
+#
+# Monitors
+#
+bspc monitor -d I II III IV V VI VII VIII IX X
+
+#
+# Autostart
+#
+sxhkd &
+$HOME/.config/polybar/launch.sh &
+xhdb ~/.config/.Xresources &
+telegram-desktop &
+discord &
+firefox &
+dropbox &
+volumeicon &
+yakuake &
+
+#
+# Bspwm variables
+#
+bspc config border_width         1
+bspc config window_gap		 5
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+
